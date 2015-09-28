@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         for ( Stock_online_resp.Stock stock: stockDisplayInfo.getStock() )
         {
             stockListDisplayStrings.add("Stock Actual: "+ stock.getStock_act()
-                +"\n" + "Color: " + stock.getColor()
-                +"\n"+ "Talla: "+ stock.getTalla());
+                +"\r\n" + "Color: " + stock.getColor()
+                +"\r\n"+ "Talla: "+ stock.getTalla());
         }
 
     }
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 //    void getAnimalNames() {
-//        animalsNameList.add("DOG \nDOG \nAnother puppy");
+//        animalsNameList.add("DOG \r\nDOG \r\nAnother puppy");
 //        animalsNameList.add("CAT");
 //        animalsNameList.add("HORSE");
 //        animalsNameList.add("ELEPHANT");
